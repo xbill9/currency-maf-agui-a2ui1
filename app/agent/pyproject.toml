@@ -19,6 +19,8 @@ dependencies = [
     "fastmcp >= 4.1.8, < 5.0.0",
     "httpx >= 0.28.1",
     "mcp >= 2.3.0, < 2.4.0",
+    # Agent Framework's MCP client needs it to recover a dropped MCP session.
+    "tenacity >= 8.0",
     "uvicorn >= 0.34.3, < 1.0.0",
 ]
 
