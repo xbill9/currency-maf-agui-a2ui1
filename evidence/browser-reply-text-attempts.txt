@@ -5,3 +5,4 @@ attempt 1: text reply, no A2UI rendered
 attempt 2: rendered rate card
   1.00 USD = 0.90 EUR | 1 USD = 0.90245 EUR | ECB reference rate for 2026-11-12 (Frankfurter API)
 # Same prompt in the render suite on Azure: 10 of 10 (render-suite-azure.txt), 10 of 10 (render-suite-azure-recheck.txt)
+# Totals (arithmetic over the lines above): browser 1 of 2 rendered; render suite on Azure 20 of 20 (10 + 10)
