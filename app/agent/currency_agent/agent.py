@@ -72,6 +72,9 @@ ROLE_INSTRUCTION = (
 TOOL_INSTRUCTION = (
     f"To show A2UI to the user, call the `{TOOL_NAME}` tool and pass the A2UI block"
     " in its `a2ui_payload` argument instead of writing the block in your reply."
+    " When the user asks for A2UI, a card or a chart in any form, including as reply"
+    " text or without tools, show it by calling the tool; never answer such a request"
+    " with only an explanation of how A2UI is sent."
 )
 
 
